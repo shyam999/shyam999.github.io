@@ -558,4 +558,87 @@ body {
   box-shadow: inset -4px -4px 10px rgba(255,255,2555,0.5),
               inset 4px 4px 10px rgba(0,0,0,0.1);
 }
-}
+
+
+
+/* ----------------
+ Footer section
+  ---------------------*/
+
+  .footer-section {
+    font-family: "Quicksand", Arial, sans-serif;
+    background: #222222;
+    margin-top: 5%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  
+  .footer-text {
+    padding-right: 70px;
+  }
+  
+  .footer-text h2 {
+    color: rgb(177, 172, 172);
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+    padding-left: 100px;
+  }
+  
+  .footer-text p {
+    color: rgb(177, 172, 172);
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-left: 100px;
+  }
+  
+  .contact-form {
+    padding-top: 57px;
+    padding-left: 70px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    border: none;
+    padding-bottom: 19px;
+    padding-left: 7px;
+    font-size: 16px;
+    border-bottom: 2px solid #656565;
+    background: transparent;
+    margin-bottom: 80px;
+    color: #fff;
+  }
+  
+  .contact-form textarea {
+    height: 40px;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  
+  .copyright {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(177, 172, 172);
+    margin-top: -40px;
+    padding-left: 115px;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .footer-text{
+      margin-left: -13%;
+    }
+    .contact-form{
+      margin-left: -15%;
+    }
+    .copyright{
+      margin-left: -13%;
+      margin-top: 4%;
+    }
+  }
