@@ -12,7 +12,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
     $(document).ready(function () {
 
 
-        var text = ["Web Designer", "Web Developer", "Blogger"];
+        var text = ["Web Designer", "Web Developer", "Pentester"];
         var counter = 0;
         var elem = document.getElementById("txt-rotate");
         var inst = setInterval(change, 1200);
